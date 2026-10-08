@@ -1,0 +1,36 @@
+# Environments and dependencies
+.venv/
+env/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Airflow runtime files
+airflow.db
+*.db
+airflow.cfg
+webserver_config.py
+standalone_admin_password.txt
+simple_auth_manager_passwords.json*
+logs/
+output/
+
+# IDE and OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.local
